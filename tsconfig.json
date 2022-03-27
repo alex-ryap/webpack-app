@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "lib": ["es7", "es6", "dom"],
+    "outDir": "./lib",
+    "target": "es5",
+    "moduleResolution": "node",
+    "inlineSources": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmitOnError": false
+  },
+  "typedocOptions": {
+    "mode": "modules",
+    "out": "docs"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "lib"]
+}
